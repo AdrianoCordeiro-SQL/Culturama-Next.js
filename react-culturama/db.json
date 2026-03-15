@@ -1,0 +1,254 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Shows"
+    },
+    {
+      "id": 2,
+      "name": "Arte"
+    },
+    {
+      "id": 3,
+      "name": "Teatro"
+    },
+    {
+      "id": 4,
+      "name": "Fotografia"
+    },
+    {
+      "id": 5,
+      "name": "Festivais"
+    },
+    {
+      "id": 6,
+      "name": "Tecnologia"
+    },
+    {
+      "id": 7,
+      "name": "Cinema"
+    },
+    {
+      "id": 8,
+      "name": "Design"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Festival das Luzes",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop",
+      "description": "Um espetáculo visual único com milhares de lanternas iluminando o céu noturno. Uma experiência inesquecível para toda a família.",
+      "date": "2025-11-14",
+      "categoryId": 5,
+      "location": "São Paulo | SP"
+    },
+    {
+      "id": 2,
+      "name": "Rock in Rio",
+      "image": "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=600&h=400&fit=crop",
+      "description": "O maior festival de rock do mundo retorna com lineup internacional e shows inesquecíveis.",
+      "date": "2025-10-25",
+      "categoryId": 1,
+      "location": "Rio de Janeiro | RJ"
+    },
+    {
+      "id": 3,
+      "name": "Jazz Festival",
+      "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&h=400&fit=crop",
+      "description": "Três dias de puro jazz com artistas nacionais e internacionais em um ambiente intimista.",
+      "date": "2025-12-20",
+      "categoryId": 1,
+      "location": "Belo Horizonte | MG"
+    },
+    {
+      "id": 4,
+      "name": "Exposição Van Gogh Imersiva",
+      "image": "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=600&h=400&fit=crop",
+      "description": "Mergulhe nas obras de Van Gogh através de projeções 360° e tecnologia de ponta.",
+      "date": "2025-11-10",
+      "categoryId": 2,
+      "location": "São Paulo | SP"
+    },
+    {
+      "id": 5,
+      "name": "Hamlet - O Príncipe da Dinamarca",
+      "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=600&h=400&fit=crop",
+      "description": "A clássica tragédia de Shakespeare em uma montagem moderna e impactante.",
+      "date": "2025-10-15",
+      "categoryId": 3,
+      "location": "Porto Alegre | RS"
+    },
+    {
+      "id": 6,
+      "name": "Festival Internacional de Fotografia",
+      "image": "https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?w=600&h=400&fit=crop",
+      "description": "Exposição com os melhores trabalhos fotográficos do ano, workshops e palestras com fotógrafos renomados.",
+      "date": "2025-11-28",
+      "categoryId": 4,
+      "location": "Curitiba | PR"
+    },
+    {
+      "id": 7,
+      "name": "Tech Summit 2024",
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop",
+      "description": "O maior evento de tecnologia da América Latina com palestras sobre IA, blockchain e inovação.",
+      "date": "2026-01-22",
+      "categoryId": 6,
+      "location": "São Paulo | SP"
+    },
+    {
+      "id": 8,
+      "name": "Mostra de Cinema Brasileiro",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&h=400&fit=crop",
+      "description": "Celebração do cinema nacional com estreias, clássicos restaurados e debates com cineastas.",
+      "date": "2025-10-30",
+      "categoryId": 7,
+      "location": "Brasília | DF"
+    },
+    {
+      "id": 9,
+      "name": "Design Week São Paulo",
+      "image": "https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?w=600&h=400&fit=crop",
+      "description": "Semana dedicada ao design com exposições, instalações urbanas e lançamentos de produtos.",
+      "date": "2025-12-05",
+      "categoryId": 8,
+      "location": "São Paulo | SP"
+    },
+    {
+      "id": 10,
+      "name": "O Quebra-Nozes",
+      "image": "https://images.unsplash.com/photo-1518834107812-39d0e48b7fd3?w=600&h=400&fit=crop",
+      "description": "O clássico ballet de Tchaikovsky em uma produção espetacular para toda a família.",
+      "date": "2025-12-20",
+      "categoryId": 3,
+      "location": "Rio de Janeiro | RJ"
+    },
+    {
+      "id": 11,
+      "name": "Festival Gastronômico Internacional",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=400&fit=crop",
+      "description": "Os melhores chefs do mundo apresentam pratos exclusivos em um festival imperdível.",
+      "date": "2025-11-08",
+      "categoryId": 5,
+      "location": "Salvador | BA"
+    },
+    {
+      "id": 12,
+      "name": "Bienal de Arte Contemporânea",
+      "image": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=600&h=400&fit=crop",
+      "description": "Exposição internacional com obras de artistas emergentes e consagrados da arte contemporânea.",
+      "date": "2026-02-01",
+      "categoryId": 2,
+      "location": "São Paulo | SP"
+    },
+    {
+      "id": 13,
+      "name": "Comic Con Brasil",
+      "image": "https://images.unsplash.com/photo-1612036782180-6f0b6b5a8e3c?w=600&h=400&fit=crop",
+      "description": "O maior evento de cultura pop do país com painéis, cosplays e convidados internacionais.",
+      "date": "2025-12-01",
+      "categoryId": 6,
+      "location": "São Paulo | SP"
+    },
+    {
+      "id": 14,
+      "name": "Festival de Inverno de Campos do Jordão",
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161fcd5f?w=600&h=400&fit=crop",
+      "description": "Música clássica em um dos mais tradicionais festivais de inverno do Brasil.",
+      "date": "2026-01-10",
+      "categoryId": 1,
+      "location": "Campos do Jordão | SP"
+    },
+    {
+      "id": 15,
+      "name": "Retratos do Brasil - Exposição Fotográfica",
+      "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600&h=400&fit=crop",
+      "description": "Uma jornada visual pelos quatro cantos do Brasil através das lentes de fotógrafos brasileiros.",
+      "date": "2025-10-20",
+      "categoryId": 4,
+      "location": "Recife | PE"
+    },
+    {
+      "id": 16,
+      "name": "Sarau Literário Nacional",
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop",
+      "description": "Encontro de escritores, poetas e amantes da literatura com leituras, oficinas e lançamentos de livros.",
+      "date": "2025-11-15",
+      "categoryId": 2,
+      "location": "Porto Alegre | RS"
+    },
+    {
+      "id": 17,
+      "name": "Festival de Dança Urbana",
+      "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=400&fit=crop",
+      "description": "Competições de breaking, hip hop e street dance com crews de todo o Brasil.",
+      "date": "2025-12-15",
+      "categoryId": 3,
+      "location": "São Paulo | SP"
+    },
+    {
+      "id": 18,
+      "name": "Feira de Artesanato e Design Sustentável",
+      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=400&fit=crop",
+      "description": "Produtos artesanais e sustentáveis com oficinas de criação e consumo consciente.",
+      "date": "2025-11-25",
+      "categoryId": 8,
+      "location": "Curitiba | PR"
+    },
+    {
+      "id": 19,
+      "name": "Festival de Música Eletrônica Amazônia",
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=400&fit=crop",
+      "description": "Música eletrônica em meio à natureza amazônica com DJs nacionais e internacionais.",
+      "date": "2026-01-20",
+      "categoryId": 1,
+      "location": "Manaus | AM"
+    },
+    {
+      "id": 20,
+      "name": "Mostra de Documentários Brasileiros",
+      "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=600&h=400&fit=crop",
+      "description": "Filmes documentários que retratam a realidade brasileira com debates e mesa redonda.",
+      "date": "2025-12-08",
+      "categoryId": 7,
+      "location": "Belo Horizonte | MG"
+    },
+    {
+      "id": 21,
+      "name": "Concurso Nacional de Fotografia Mobile",
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "description": "Competição de fotografia utilizando apenas smartphones com premiação e exposição.",
+      "date": "2025-11-30",
+      "categoryId": 4,
+      "location": "Fortaleza | CE"
+    },
+    {
+      "id": 22,
+      "name": "Hackathon Cultural Tech",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
+      "description": "Desenvolvedores criam soluções tecnológicas para democratizar o acesso à cultura.",
+      "date": "2025-10-25",
+      "categoryId": 6,
+      "location": "Florianópolis | SC"
+    },
+    {
+      "id": 23,
+      "name": "Festival Gastronômico Nordestino",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Celebração da culinária nordestina com chefs renomados e pratos tradicionais.",
+      "date": "2026-01-15",
+      "categoryId": 5,
+      "location": "João Pessoa | PB"
+    },
+    {
+      "id": 24,
+      "name": "Exposição Interativa de Ciência e Arte",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+      "description": "Instalações que unem ciência e arte através de tecnologia interativa e realidade virtual.",
+      "date": "2025-12-12",
+      "categoryId": 2,
+      "location": "Brasília | DF"
+    }
+  ]
+}
