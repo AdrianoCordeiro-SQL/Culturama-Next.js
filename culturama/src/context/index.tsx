@@ -7,11 +7,10 @@ import {
   useEffect,
   type ReactNode,
 } from "react";
+import db from "../db.json";
 import { type Category, type Event, type DataContextType } from "../types";
 
 const DataContext = createContext<DataContextType | undefined>(undefined);
-
-const API_BASE_URL = "http://localhost:3001";
 
 interface DataProviderProps {
   children: ReactNode;
@@ -28,19 +27,9 @@ export const DataProvider = ({ children }: DataProviderProps) => {
       setLoading(true);
       setError(null);
 
-      const [categoriesResponse, eventsResponse] = await Promise.all([
-        fetch(`${API_BASE_URL}/categories`),
-        fetch(`${API_BASE_URL}/events`),
-      ]);
+      const categoriesData = db.categories;
+      const eventsData = db.events;
 
-      if (!categoriesResponse.ok || !eventsResponse.ok) {
-        throw new Error("Erro ao carregar dados");
-      }
-
-      const categoriesData = await categoriesResponse.json();
-      const eventsData = await eventsResponse.json();
-
-      // Garantir que os IDs sejam números
       const processedCategories = categoriesData.map((cat: Category) => ({
         ...cat,
         id: Number(cat.id),
@@ -52,8 +41,8 @@ export const DataProvider = ({ children }: DataProviderProps) => {
         categoryId: Number(event.categoryId),
       }));
 
-      setCategories(processedCategories);
-      setEvents(processedEvents);
+      setCategories(processedCategories as Category[]);
+      setEvents(processedEvents as Event[]);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Erro desconhecido");
       console.error("Erro ao carregar dados:", err);
