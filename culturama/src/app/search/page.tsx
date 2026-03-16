@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEvents } from "@/hooks";
 import { useData } from "@/context";
@@ -7,7 +7,7 @@ import EventCard from "@/layout/ui/event-card";
 import Button from "@/layout/ui/button";
 import { Search as SearchIcon, FilterList, Event } from "@mui/icons-material";
 
-const Search = () => {
+const SearchContent = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const query = searchParams.get("q") || "";
@@ -17,7 +17,6 @@ const Search = () => {
   const results = searchEvents(query);
 
   useEffect(() => {
-    // Se não houver query, redireciona para home
     if (!query) {
       router.push("/");
     }
@@ -158,6 +157,16 @@ const Search = () => {
         )}
       </div>
     </div>
+  );
+};
+
+const Search = () => {
+  return (
+    <Suspense
+      fallback={<div className="text-center p-20">Carregando busca...</div>}
+    >
+      <SearchContent />
+    </Suspense>
   );
 };
 

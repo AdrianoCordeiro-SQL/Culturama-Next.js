@@ -1,4 +1,4 @@
-'use client";';
+"use client";
 import { useState } from "react";
 import { useEvents, useCategories, useSearch } from "@/hooks";
 import EventCard from "@/layout/ui/event-card";
